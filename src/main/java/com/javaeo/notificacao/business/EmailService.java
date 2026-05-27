@@ -32,7 +32,7 @@ public class EmailService {
 	private String nomeRemetente;
 
 
-	public void enviaEmail(TarefasDTO dto){
+	public void enviarEmail(TarefasDTO dto){
 
 		try {
 			MimeMessage mensagem = javaMailSender.createMimeMessage();
